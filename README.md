@@ -1,5 +1,5 @@
 # material_ripple
-A simple jQuery ripple plugin for material UI
+A simple jQuery plugin to create material ripple effect
 
 ###Usage###
 

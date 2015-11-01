@@ -1,11 +1,11 @@
 /*
- *Norah Ripple jQuery plugin
+ *Material Ripple jQuery plugin
  *MIT License
  *Version 0.1
  */
 ;
 (function ($, window, document, undefined) {
-    var pluginName = 'norah_ripple',
+    var pluginName = 'material_ripple',
             defaults = {
                 rippleClass: "ripple-animate",
                 background: "#fff",
@@ -34,7 +34,6 @@
 
             var container = $('<div/>');
             container.addClass(options['rippleClass']);
-            var animatingDiv = $('.' + options['rippleClass']);
             var cssProperties = {
                 //animating circle
                 width: height,
