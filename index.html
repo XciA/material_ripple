@@ -1,0 +1,107 @@
+<!doctype>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link href="assets/css/normalize.css" rel="stylesheet" />
+        <link href="assets/css/style.css" rel="stylesheet" />
+        <link href="assets/css/material_ripple.css" rel="stylesheet" />
+    </head>
+    <body>
+        <main class="section_container section">
+            <section class="section">
+                <header class="title title--bottom-border">
+                    <h3 class="title__main">Material Ripple jQuery Plugin</h3>
+                    <p class="title__secondary">A simple jQuery plugin to create material ripple effect</p>
+                </header>
+            </section>
+            <section class="section__demo section_item--white">
+                <header class="title title--bottom-border">
+                    <h3 class="title__main">DEMO</h3>
+                    <p class="title__secondary">
+                        Plugin demonstration
+                    </p>
+                </header>
+                <div class="demo_container">
+                    <div class="demo_container__items">        
+                        <div class="material_ripple demo_container__item btn" data-color="#39a1f4">
+                            Button
+                        </div>
+                        <div class="material_ripple demo_container__item btn btn--blue">
+                            Button 
+                        </div>
+                    </div>
+                    <div class="demo_container__items">        
+                        <div class="material_ripple demo_container__item btn" data-color="#FF4081">
+                            Button
+                        </div>
+                        <div class="material_ripple demo_container__item btn btn--colored">
+                            Button 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section__demo pull-left">
+                <header class="title title--bottom-border">
+                    <h3 class="title__main">USAGE</h3>
+                    <p class="title__secondary">
+                        HTML Markup && Plugin Initialization
+                    </p>
+                </header>
+                <div class="demo_container pull-left" style="width:100%;">
+                    <div class="demo_container__item pull-left" style="width:100%;"> 
+                        <div class="col6">
+                            <header class="title title--bottom-border">
+                                <h3 class="title__main">Colored Ripple</h3>
+                                <p class="title__secondary">
+                                    Add data-color attribute to your element
+                                </p>
+                            </header>
+                            <div class="code">
+                                <div class="material_ripple btn" data-color="#FF4081">Colored</div>
+                                <textarea>
+HTML
+<div class="material_ripple" data-color="#39a1f4">Colored</div>
+
+Initialize
+$('.material_ripple').material_ripple();
+
+
+//do a default styling for your button or element and add a data-color attribute
+
+                                </textarea>
+                            </div>
+                        </div>
+                        <div class="col6">
+                            <header class="title title--bottom-border">
+                                <h3 class="title__main">Default Ripple</h3>
+                                <p class="title__secondary">
+                                    Default styling for material_ripple plugin
+                                </p>
+                            </header>
+                            <div class="code">
+                                <div class="material_ripple btn btn--colored">Default Ripple</div>
+                                <textarea>
+HTML
+<div class="material_ripple">Default Ripple</div>
+
+Initialize
+$('.material_ripple').material_ripple();
+
+
+//Default theme for material_ripple
+
+                                </textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/material_ripple.js"></script>
+        <script>
+            $('.material_ripple').material_ripple();
+        </script>
+    </body>
+</html>
